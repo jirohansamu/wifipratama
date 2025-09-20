@@ -1,0 +1,43 @@
+{
+  "name": "wa-admin-portal",
+  "version": "1.0.0",
+  "description": "Portal Admin WhatsApp Gateway untuk GenieACS, Mikrotik PPPoE, dan Hotspot Management",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.17",
+    "axios": "^1.6.7",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.10",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "express-session": "^1.18.1",
+    "geolib": "^3.3.4",
+    "leaflet": "^1.9.4",
+    "midtrans-client": "^1.4.3",
+    "multer": "^2.0.1",
+    "mysql2": "^3.9.7",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "node-routeros": "^1.6.9",
+    "pino": "^8.11.0",
+    "qrcode-terminal": "^0.12.0",
+    "sqlite3": "^5.1.7",
+    "turf": "^3.0.14",
+    "winston": "^3.8.2",
+    "xendit-node": "^7.0.0"
+  },
+  "devDependencies": {
+    "ejs-lint": "^2.0.1",
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
